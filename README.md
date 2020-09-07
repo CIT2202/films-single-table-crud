@@ -14,7 +14,7 @@ If you get really stuck, you can always switch to the *solutions* branch to see 
 * Open this same page in a browser, you should see a list of films that has been dynamically generated from the database.
 
 * Modify your list.php page so that each film is displayed as a hyperlink that links to a page named *details.php* (you will need to create a *details.php* page).
-* If you can get this to work, try and pass the specific film's id in the query string.
+* If you can get this to work, try and pass the selected film's id in the query string.
 * In *details.php* connect to your database and run a query that will display the full details for the selected film (the certificate and the duration of the film).
 
 ## Adding a new film
