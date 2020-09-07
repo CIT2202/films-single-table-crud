@@ -1,6 +1,6 @@
 <?php
 try{
-    $conn = new PDO('mysql:host=localhost;dbname=examples', 'cit2202', 'letmein');
+    $conn = new PDO('mysql:host=localhost;dbname=cit2202', 'cit2202', 'letmein');
     $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 }
 catch (PDOException $exception)
@@ -27,9 +27,7 @@ $conn=NULL;
 
 //loop over the array of films
 foreach ($films as $film) {
-    echo "<li>";
-    echo "<a href='details.php?id={$film["id"]}'>{$film["title"]}</a>";
-    echo "</li>";
+    echo "<p>{$film["title"]}</p>";
 }
 
 ?>
