@@ -20,7 +20,7 @@
 <input type="text" id="duration" name="duration">
 </div>
 <div>
-<p>Please enter an id number for the certificate. 1 = U, 2 = PG, 3 = 12, 4 = 15, 5 = 18. We will look at a better way of doing this later in the course.</p>
+<p>Please enter an id number for the certificate (1 = U, 2 = PG, 3 = 12, 4 = 15, 5 = 18). We will look at a better way of doing this in later examples.</p>
 <label for="certificate">Certificate:</label>
 <input type="text" id="certificate" name="certificate" placeholder=" e.g. 2 for PG">
 </div>

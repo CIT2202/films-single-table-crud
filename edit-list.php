@@ -36,7 +36,7 @@ foreach ($films as $film) {
   echo "</p>";
 }
 ?>
-<input type="submit">
+<input type="submit" value="Edit the film">
 </form>
 </body>
 </html>
