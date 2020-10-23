@@ -37,7 +37,7 @@ foreach ($films as $film) {
 }
 
 ?>
-<input type="submit">
+<input type="submit" value="Delete these films">
 </form>
 </body>
 </html>
