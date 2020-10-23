@@ -16,7 +16,7 @@ If you get really stuck, you can always switch to the *solutions* branch to see 
 * The use the examples in https://github.com/CIT2202/pdo-simple-crud, specifically https://github.com/CIT2202/pdo-simple-crud/blob/master/browseable-list.php and https://github.com/CIT2202/pdo-simple-crud/blob/master/details.php, to help you do the following:
   * Modify your *browsable-list.php* page so that each film is displayed as a hyperlink that links to a page named *details.php* (you will need to create a *details.php* page).
   * If you can get this to work, try and pass the selected film's id in the query string.
-  * In *details.php* connect to your database and run a query that will display the full details for the selected film (the certificate and the duration of the film).
+  * In *details.php* connect to your database and run a query that will display the full details for the selected film (the year and the duration of the film).
 
 
 ## Adding a new film
