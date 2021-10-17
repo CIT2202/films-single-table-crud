@@ -28,7 +28,7 @@ If you get really stuck, you can always switch to the *solutions* branch to see 
 * In a code editor open *delete-list.php*.
   * Again on line 3 change the connection settings to match the database name, username and password you created last week in the MySQL practical.
 * Open this same page in a browser. You should see a list of films. The user can select the films they want to delete. If you run the example you will get an error because the data is sent to a *delete.php* page that we haven't created yet.
-* Create the a new page called *delete.php*. This should take the data from the form and run a series of SQL DELETE statements to delete row from films table.
+* Create the a new page called *delete.php*. This should take the data from the form and run a series of SQL DELETE statements to delete a row from films table.
 
 ## Updating a film's details (optional)
 * In a code editor open *delete-list.php*.
