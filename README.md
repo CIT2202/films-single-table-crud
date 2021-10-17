@@ -3,7 +3,7 @@
 # PHP, PDO and Databases
 
 ## Setting up
-This practical is about using PHP to work with a MySQL database. We will work with the films database we created in the practical last week. If you don't have this from last week, you can grab the  *films-db.sql* file from https://github.com/CIT2202/sql-joins/blob/master/films-db.sql.
+This practical is about using PHP to work with a MySQL database. We will work with the films database we created in the practical last week (this is the mutiple tables films database). If you don't have this from last week, you can grab the  *films-db.sql* file from https://github.com/CIT2202/sql-joins/blob/master/films-db.sql.
 
 Unless you are really confident with PHP, you will probably need to look at similar examples in order to complete the exercises. If you have a look at https://github.com/CIT2202/pdo-simple-crud. This contains very similar examples but using a *countries* table. Use these examples to help you complete the following exercises.
 
