@@ -14,7 +14,7 @@ If you get really stuck, you can always switch to the *solutions* branch to see 
   * On line 3 change the connection settings to match the database name, username and password you created last week in the MySQL practical.
 * If you open this same page in a browser, you should see a list of films that has been dynamically generated from the database.
 * The use the examples in https://github.com/CIT2202/pdo-simple-crud, specifically https://github.com/CIT2202/pdo-simple-crud/blob/master/browseable-list.php and https://github.com/CIT2202/pdo-simple-crud/blob/master/details.php, to help you do the following:
-  * Modify your *browsable-list.php* page so that each film is displayed as a hyperlink that links to a page named *details.php* (you will need to create a *details.php* page).
+  * Modify your *browseable-list.php* page so that each film is displayed as a hyperlink that links to a page named *details.php* (you will need to create a *details.php* page).
   * If you can get this to work, try and pass the selected film's id in the query string.
   * In *details.php* connect to your database and run a query that will display the full details for the selected film (the year and the duration of the film).
 
