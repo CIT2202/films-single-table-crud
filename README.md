@@ -10,7 +10,7 @@ Unless you are really confident with PHP, you will probably need to look at simi
 If you get really stuck, you can always switch to the *solutions* branch to see a complete solution.
 
 ## Creating a browseable list
-* In a code editor open *browsable-list.php*.
+* In a code editor open *browseable-list.php*.
   * On line 3 change the connection settings to match the database name, username and password you created last week in the MySQL practical.
 * If you open this same page in a browser, you should see a list of films that has been dynamically generated from the database.
 * The use the examples in https://github.com/CIT2202/pdo-simple-crud, specifically https://github.com/CIT2202/pdo-simple-crud/blob/master/browseable-list.php and https://github.com/CIT2202/pdo-simple-crud/blob/master/details.php, to help you do the following:
