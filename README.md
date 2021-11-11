@@ -31,7 +31,7 @@ If you get really stuck, you can always switch to the *solutions* branch to see 
 * Create the a new page called *delete.php*. This should take the data from the form and run a series of SQL DELETE statements to delete a row from films table.
 
 ## Updating a film's details (optional)
-* In a code editor open *delete-list.php*.
+* In a code editor open *edit-list.php*.
   * Again on line 3 change the connection settings to match the database name, username and password you created last week in the MySQL practical.
 * Open this same page in a browser. You should see a list of films. The user can select the film they want to edit. If you submit this form you will be taken to a page called *edit.php*.
 * Add some PHP code to *edit.php* that will take the id number of the selected film, run an SQL select statement to get the film's full details and populate the form with these details.
