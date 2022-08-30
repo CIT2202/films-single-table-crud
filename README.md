@@ -12,8 +12,8 @@ If you get really stuck, you can always switch to the *solutions* branch to see 
 ## Making sense of the example
 * In a code editor open *browseable-list.php*.
   * On line 3 change the connection settings to match the database name, username and password you created last week in the MySQL practical.
-* If you open this same page in a browser, you should see a list of films that has been dynamically generated from the database.
-* Now can you modify the code so that:
+* Open this page in a browser, you should see a list of films that has been dynamically generated from the database.
+* Try and modify the code so that:
   * The page only shows films made in the 21st century i.e. in the year 2000 or later. 
   * In addition to the title of the film, the year of the film is also display.
   
