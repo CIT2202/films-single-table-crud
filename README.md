@@ -9,11 +9,16 @@ Unless you are really confident with PHP, you will probably need to look at simi
 
 If you get really stuck, you can always switch to the *solutions* branch to see a complete solution.
 
-## Creating a browseable list
+## Making sense of the example
 * In a code editor open *browseable-list.php*.
   * On line 3 change the connection settings to match the database name, username and password you created last week in the MySQL practical.
 * If you open this same page in a browser, you should see a list of films that has been dynamically generated from the database.
-* Then use the examples in https://github.com/CIT2202/pdo-simple-crud, specifically https://github.com/CIT2202/pdo-simple-crud/blob/master/browseable-list.php and https://github.com/CIT2202/pdo-simple-crud/blob/master/details.php, to help you do the following:
+* Now can you modify the code so that:
+  * The page only shows films made in the 21st century i.e. in the year 2000 or later. 
+  * In addition to the title of the film, the year of the film is also display.
+  
+## Creating a browseable list
+* Use the examples in https://github.com/CIT2202/pdo-simple-crud, specifically https://github.com/CIT2202/pdo-simple-crud/blob/master/browseable-list.php and https://github.com/CIT2202/pdo-simple-crud/blob/master/details.php, to help you do the following:
   * Modify your *browseable-list.php* page so that each film is displayed as a hyperlink that links to a page named *details.php* (you will need to create a *details.php* page).
   * If you can get this to work, try and pass the selected film's id in the query string.
   * In *details.php* connect to your database and run a query that will display the full details for the selected film (the year and the duration of the film).
