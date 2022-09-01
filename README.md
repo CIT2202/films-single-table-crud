@@ -1,6 +1,6 @@
-# Practical : PHP, PDO and Databases
 
 # PHP, PDO and Databases
+Before working through these practical exercises, it's probably worth having a look at these [notes] (https://github.com/CIT2202/pdo-simple-crud/blob/master/pdo-php-databases.md). They explain the basics of working with a databse using the PDO extension. 
 
 ## Setting up
 This practical is about using PHP to work with a MySQL database. We will work with the films database we created in the practical last week (this is the database with multiple tables - films, certificates, genres etc.). If you don't have this from last week, you can grab the  *films-db.sql* file from https://github.com/CIT2202/sql-joins/blob/master/films-db.sql.
