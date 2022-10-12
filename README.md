@@ -1,5 +1,5 @@
 
-# PHP, PDO and Databases
+# CRUD operations with the films database
 Before working through these practical exercises, it's probably worth having a look at these [notes](https://github.com/CIT2202/pdo-simple-crud/blob/master/pdo-php-databases.md). They explain the basics of working with a databse using the PDO extension. 
 
 ## Setting up
