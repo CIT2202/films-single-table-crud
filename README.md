@@ -20,19 +20,19 @@ Unless you are really confident with PHP, you will probably need to look at simi
 
 
 ## Adding a new film
-* In a code editor open *create.php*.
+* In a text editor open *create.php*.
 * Open this same page in a browser, you should see this is a simple form where users can enter the details of a new film. If you run the example you will get an error because the data is sent to a *save.php* page that we haven't created yet.
-* Create the a new page called *save.php*. This should take the data from the form and run an SQL INSERT statement to add this data to the films table.  Again look at the similar examples in https://github.com/CIT2202/pdo-simple-crud to help you.
+* Create a new page called *save.php*. This should take the data from the form and run an SQL INSERT statement to add this data to the films table.  Again look at the similar examples in https://github.com/CIT2202/pdo-simple-crud to help you.
 
 ## Deleting films  (optional)
 * In a code editor open *delete-list.php*.
-  * Again on line 3 change the connection settings to match the database name, username and password you created last week in the MySQL practical.
+  * Again, on line 3 change the connection settings to match the your database.
 * Open this same page in a browser. You should see a list of films. The user can select the films they want to delete. If you run the example you will get an error because the data is sent to a *delete.php* page that we haven't created yet.
-* Create the a new page called *delete.php*. This should take the data from the form and run a series of SQL DELETE statements to delete a row from films table.
+* Create a new page called *delete.php*. This should take the data from the form and run a series of SQL DELETE statements to delete rows from films table.
 
 ## Updating a film's details (optional)
 * In a code editor open *edit-list.php*.
-  * Again on line 3 change the connection settings to match the database name, username and password you created last week in the MySQL practical.
+  * Again, on line 3 change the connection settings.
 * Open this same page in a browser. You should see a list of films. The user can select the film they want to edit. If you submit this form you will be taken to a page called *edit.php*.
 * Add some PHP code to *edit.php* that will take the id number of the selected film, run an SQL select statement to get the film's full details and populate the form with these details.
-* When submitted the form data in *edit.php* is sent to a page called *update.php*. Create the a new page called *update.php*. This should take the data from the form and run an SQL UPDATE statement to update a row from the films table.
+* When submitted, the form data in *edit.php* is sent to a page called *update.php*. Create a new page called *update.php*. This should take the data from the form and run an SQL UPDATE statement to update a row from the films table.
