@@ -7,8 +7,6 @@ This practical is about using PHP to work with a MySQL database. We will work wi
 
 Unless you are really confident with PHP, you will probably need to look at similar examples in order to complete the exercises. If you have a look at https://github.com/CIT2202/pdo-simple-crud. This contains very similar examples but using a *countries* table. Use these examples to help you complete the following exercises.
 
-If you get really stuck, you can always switch to the *solutions* branch to see a complete solution.
-
 ## Making sense of the example
 * In a code editor open *browseable-list.php*.
   * On line 3 change the connection settings to match the database name, username and password you created last week in the MySQL practical.
