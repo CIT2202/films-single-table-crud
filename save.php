@@ -5,14 +5,14 @@ try{
 }
 catch (PDOException $exception)
 {
-	echo "Oh no, there was a problem" . $exception->getMessage();
+    echo "Oh no, there was a problem" . $exception->getMessage();
 }
 
 
 //This is a simple example we would normally do some form validation here
 
 //basic form processing
-//look at the form controls in create.php for where these values ($_POST['title'], $_POST['year'] etc.) come from
+//look at the name values of form controls in create.php to see where these values ($_POST['title'], $_POST['year'] etc.) come from
 $title = $_POST['title'];
 $year = $_POST['year'];
 $duration = $_POST['duration'];
