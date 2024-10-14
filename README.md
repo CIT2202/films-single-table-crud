@@ -21,7 +21,7 @@ Unless you are really confident with PHP, you will probably need to look at simi
 
 ## Adding a new film
 * In a text editor open *create.php*.
-* Open the page in a browser, you should see this is a simple form where users can enter the details of a new film. If you run the example you should find the form is submitted to *save.php* page.
+* Open the page in a browser, you should see this is a simple form where users can enter the details of a new film. If you run the example you should find the form is submitted to *save.php*.
 * Add some code in *save.php* that will take the data from the form and run an SQL INSERT statement to add this data to the films table.  Again look at the similar examples in https://github.com/CIT2202/pdo-simple-crud to help you.
 
 ## Deleting films  (optional)
