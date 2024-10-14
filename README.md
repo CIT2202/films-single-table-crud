@@ -14,15 +14,15 @@ Unless you are really confident with PHP, you will probably need to look at simi
 
 ## Creating a browseable list
 * Use the examples in https://github.com/CIT2202/pdo-simple-crud, specifically https://github.com/CIT2202/pdo-simple-crud/blob/master/browseable-list.php and https://github.com/CIT2202/pdo-simple-crud/blob/master/details.php, to help you do the following:
-  * Modify your *browseable-list.php* page so that each film is displayed as a hyperlink that links to a page named *details.php* (you will need to create a *details.php* page).
-  * If you can get this to work, try and pass the selected film's id in the query string.
+  * Modify your *browseable-list.php* page so that each film is displayed as a hyperlink that links to the *details.php*.
+  * If you can get this to work, try and pass the selected film's id in the query string. You will know if this has worked because you will get a message in *details.php* that says something like 'You selected film no. 3'. 
   * In *details.php* connect to your database and run a query that will display the full details for the selected film (the year and the duration of the film).
 
 
 ## Adding a new film
 * In a text editor open *create.php*.
-* Open this same page in a browser, you should see this is a simple form where users can enter the details of a new film. If you run the example you will get an error because the data is sent to a *save.php* page that we haven't created yet.
-* Create a new page called *save.php*. This should take the data from the form and run an SQL INSERT statement to add this data to the films table.  Again look at the similar examples in https://github.com/CIT2202/pdo-simple-crud to help you.
+* Open the page in a browser, you should see this is a simple form where users can enter the details of a new film. If you run the example you should find the form is submitted to *save.php* page.
+* Add some code in *save.php* that will take the data from the form and run an SQL INSERT statement to add this data to the films table.  Again look at the similar examples in https://github.com/CIT2202/pdo-simple-crud to help you.
 
 ## Deleting films  (optional)
 * In a code editor open *delete-list.php*.
