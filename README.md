@@ -14,7 +14,7 @@ Unless you are really confident with PHP, you will probably need to look at simi
 
 ## Creating a browseable list
 * Use the examples in https://github.com/CIT2202/pdo-simple-crud, specifically https://github.com/CIT2202/pdo-simple-crud/blob/master/browseable-list.php and https://github.com/CIT2202/pdo-simple-crud/blob/master/details.php, to help you do the following:
-  * Modify your *browseable-list.php* page so that each film is displayed as a hyperlink that links to the *details.php*.
+  * Modify your *browseable-list.php* page so that each film is displayed as a hyperlink that links to *details.php*.
   * If you can get this to work, try and pass the selected film's id in the query string. You will know if this has worked because you will get a message in *details.php* that says something like 'You selected film no. 3'. 
   * In *details.php* connect to your database and run a query that will display the full details for the selected film (the year and the duration of the film).
 
